@@ -47,21 +47,31 @@ img {
 */
 
 h1 {
-
+    font-family: "Times New Roman", serif;
+    font-size: 36px;
+    font-weight: normal;
+    line-height: 40px;
+    margin: 0 0 48px;
 }
 
 h2 {
-
+    font-size: 23px;
+    line-height: 32px;
+    margin: 0 0 24px;
 }
 
 h3 {
-
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0 0 24px;
 }
 
 h4,
 h5,
 h6 {
-
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 0 24px;
 }
 
 p,
@@ -71,42 +81,54 @@ dl,
 table,
 address,
 figure {
-
+    margin: 0 0 24px;
 }
 
 ul,
 ol,
 blockquote {
-
+    padding-left: 24px;
 }
 
 li ul,
 li ol{
-
+    margin-bottom: 0;
 }
 
 blockquote {
-
+    font-style: italic;
+    font-size: 23px;
+    line-height: 32px;
+    margin: 0 0 24px;
+    font-family: "Times new Roman", serif;
 }
 
 figcaption {
-
+    font-size: 12px;
+    line-height: 16px;
+    padding-top: 8px;
+    color: grey;
 }
 
 hr {
-
+    border: 0;
+    height: 1px;
+    background: lightgrey;
+    margin: 0 0 24px;
 }
 
 a {
-
-}
-
-a:hover,
-a:focus {
-
+    color: royalblue;
+    transition: all .1s ease-in-out;
 }
 
 a:visited,
 a:active {
-    
+    color: blueviolet;
 }
+
+a:hover,
+a:focus {
+    color: crimson;
+}
+
